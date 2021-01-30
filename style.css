@@ -78,13 +78,19 @@ footer {
 
     .step-box {
         width: 100%;
+    }
+
+    .step-box:first {
         margin-top: 50px;
-        margin-bottom: 50px;
     }
 
     .step-box:nth-child(2) {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .step-box:last-child {
+        margin-bottom: 50px;
     }
 
     .step-img1 {
